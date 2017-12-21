@@ -5,7 +5,7 @@ Upgrade Android mmssms.db
 Python 3
 
 # Usage
-`python main.py old_mms_db.db new_mms_db.db`
+`python3 main.py old_mms_db.db new_mms_db.db`
 
 Where `old_mms_db.db` is the SMS/MMS database file from your old rom/phone, 
 
