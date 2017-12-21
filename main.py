@@ -15,7 +15,7 @@ new_sql_db = sys.argv[2]
 print("Android Message DB Updater by Hopkins Kong\n")
 
 if old_sql_db == new_sql_db or new_sql_db == new_sql_db_template:
-	print ("Please use another file name for hte new sms database, exiting...")
+	print ("Please use another file name for the new sms database, exiting...")
 	exit()
 
 if os.path.isfile(new_sql_db_template) != True:
